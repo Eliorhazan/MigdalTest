@@ -11,23 +11,6 @@ import {HebalphabeticallyPipe} from '../pipes/Hebalphabetically.pipe'
 
  <h3 class="p-3 text-center">רשימת מוסכים</h3>
 <div dir="rtl" class="container">
-    <!-- <div class="row p-0">
-      <div class="col-md-12">
-      <div style="float: right;" class="col-md-7">
-          <area-combo  dir="rtl"  [list]="areaList" (selectedArea)="changeArea($event)"></area-combo>
-        </div>
-        <br>
-        <br>
-        <br>
-
-        <div class="col-md-3">
-          <input class="city"  type="text" placeholder="הזן שם עיר" (keyup)="searchGarages($event)"  >
-        </div>
-
-      </div>
-
-    </div>
-    <br> -->
     <div>
       <area-combo  dir="rtl"  [list]="areaList" (selectedArea)="changeArea($event)"></area-combo>
     </div>
